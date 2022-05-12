@@ -17,9 +17,9 @@
                             <h4 class="card-title">{{ $movie->title }}</h4>
                             <h5 class="card-title">{{ $movie->original_title }}</h5>
                             <p class="card-text">
-                                Nationality: {{ $movie->nationality }}
-                                Release date: {{ $movie->date }}
-                                Rating: {{ $movie->vote }}
+                                <strong>Nationality:</strong> {{ $movie->nationality }}<br>
+                                <strong>Release date:</strong> {{ $movie->date }}<br>
+                                <strong>Rating:</strong> {{ $movie->vote }}<br>
                             </p>
                         </div>
                     </div>
